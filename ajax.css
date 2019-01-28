@@ -1,0 +1,11 @@
+button {
+	padding: 7px;
+	background: white;
+	font-family: sans-serif;
+	letter-spacing: 1.5px;
+	border: 1px solid black;
+}
+.container {
+	margin: 10px auto;
+	width: 360px;
+}

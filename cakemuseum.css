@@ -1,0 +1,13 @@
+body {background:#f5d9d5;}
+
+ #main .navbar-brand {color:#ea1c2c;
+  font-family: cursive;}
+ #main .nav-link {font-family:cursive;
+                    color:white; }
+ #main .nav-link:hover { color:#ea1c2c; }
+ h2 {color: white;
+     font-family:cursive;}
+ span, u {color:#ea1c2c }
+ p {color: white}
+ hr {color:#ea1c2c
+     width: 50px; }

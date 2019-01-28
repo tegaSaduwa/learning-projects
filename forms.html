@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <meta charset="utf-8">
+	<title>forms</title>
+</head>
+<body>
+	<h1> Register </h1>
+ 	<!-- space -->
+ 	<form>
+ 		<label for="first name">First Name:</label>
+ 		   <input name="first name" id="first name" type="text" placeholder="Oghenetega" required>
+ 		<label for="last name">Last Name:</label>
+ 		  <input name="last name" id="last name" type="text" placeholder="Peter" required>
+ 	</form>
+ 	<div>
+ 		<label for="male">Male</label>
+          <input name="gender" id="male" type="radio" value="male" >
+        <label for="female">Female</label>
+           <input name="gender" id="female" type="radio" value="female" >
+        <label for="others">Others</label>
+           <input name="gender" id="others" type="radio" value="others" >   
+   </div>
+   <div>
+   	<label for="Email">Email:</label>
+   	    <input name="Email" id="email" type="Email" placeholder="your email" >
+   	<label for="password">password:</label>
+   	    <input name="password" id="password" type="password" pattern=".{5,10}"  required title="five to 10 characters">    
+   </div>
+   <div>
+   	<label>
+   		Birthday:
+   	<select name="month">
+   		<option>january</option>
+   		<option>february</option>
+   		<option>march</option>
+   	</select>
+   	<select name="Day">
+   		<option>mon</option>
+   		<option>tues</option>
+   		<option>weds</option>
+   	</select>
+   	<select name="year">
+   		<option>2000</option>
+   		<option>2001</option>
+   		<option>2002</option>
+   	</select>
+   </label>
+   <p>I agree to the terms and conditions <input type="checkbox"> </p>
+   <button>SUBMIT</button>
+    </div>
+   
+   </form>
+
+
+  
+</body>
+</html>

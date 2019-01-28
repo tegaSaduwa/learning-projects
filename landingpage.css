@@ -1,0 +1,28 @@
+body           { background: url(Lighthouse.jpg);
+                }
+         .navbar-default{font-family: cursive;
+                         background: black;}
+	#content        {text-align: center;
+	            font-family: cursive;
+                padding-top: 20%;
+                color: black;
+               text-shadow:0px 4px 3px gray;}
+hr             {width: 50%;}
+button:hover    {color:blue;}
+button        {font-family: cursive;
+          	   background: gray;
+          	   padding:6px 16px;
+          	   font-size: 18px;
+          	   border:none;
+          	   border-radius: 10px}
+#navbar-brand {
+	color:white;
+	font-size: 3rem;
+}
+.navbar-default  .navbar-nav>li>a {color:white
+;}
+
+
+          
+
+      h1, h3  {font-family: cursive;}

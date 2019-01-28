@@ -1,0 +1,15 @@
+body {width:80%;
+      border: 10px solid #bdc3c7 ;
+      font-family: cursive;
+      margin: auto;
+      padding: 20px}
+.date {color:#3498db;
+	   text-transform: uppercase; 
+	   padding-bottom: 10px}
+ h3 {color:blue;}
+ hr {width: 70%;}
+ div p:nth-of-type(1)
+       {border-left: 5px solid #bdc3c7;
+     	padding-left: 5px}
+
+    
